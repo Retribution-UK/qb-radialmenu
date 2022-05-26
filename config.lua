@@ -38,15 +38,15 @@ Config.MenuItems = {
                         shouldClose = true
                     }, {
                         id = 'decoratehouse',
-                        title = 'Decorate',
-                        icon = 'boxes',
+                        title = 'Decorate House',
+                        icon = 'box',
                         type = 'client',
                         event = 'qb-houses:client:decorate',
                         shouldClose = true
                     }, {
                         id = 'houseLocations',
-                        title = 'Locations',
-                        icon = 'home',
+                        title = 'Interaction Locations',
+                        icon = 'house',
                         items = {
                             {
                                 id = 'setstash',
@@ -58,7 +58,7 @@ Config.MenuItems = {
                             }, {
                                 id = 'setoutift',
                                 title = 'Set Wardrobe',
-                                icon = 'tshirt',
+                                icon = 'shirt',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
                                 shouldClose = true
@@ -76,7 +76,7 @@ Config.MenuItems = {
             }, {
                 id = 'clothesmenu',
                 title = 'Clothing',
-                icon = 'tshirt',
+                icon = 'shirt',
                 items = {
                     {
                         id = 'Hair',
@@ -88,7 +88,7 @@ Config.MenuItems = {
                     }, {
                         id = 'Ear',
                         title = 'Ear Piece',
-                        icon = 'deaf',
+                        icon = 'ear-deaf',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleProps',
                         shouldClose = true
@@ -102,14 +102,14 @@ Config.MenuItems = {
                     }, {
                         id = 'Top',
                         title = 'Top',
-                        icon = 'tshirt',
+                        icon = 'shirt',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleClothing',
                         shouldClose = true
                     }, {
                         id = 'Shirt',
                         title = 'Shirt',
-                        icon = 'tshirt',
+                        icon = 'shirt',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleClothing',
                         shouldClose = true
@@ -999,21 +999,21 @@ Config.JobInteractions = {
         {
             id = 'statuscheck',
             title = 'Check Health Status',
-            icon = 'heartbeat',
+            icon = 'heart-pulse',
             type = 'client',
             event = 'hospital:client:CheckStatus',
             shouldClose = true
         },{
             id = 'revivep',
             title = 'Revive',
-            icon = 'user-md',
+            icon = 'user-doctor',
             type = 'client',
             event = 'hospital:client:RevivePlayer',
             shouldClose = true
         },{
             id = 'treatwounds',
             title = 'Heal wounds',
-            icon = 'band-aid',
+            icon = 'bandage',
             type = 'client',
             event = 'hospital:client:TreatWounds',
             shouldClose = true
@@ -1027,14 +1027,14 @@ Config.JobInteractions = {
         }, {
             id = 'escort',
             title = 'Escort',
-            icon = 'user-friends',
+            icon = 'user-group',
             type = 'client',
             event = 'police:client:EscortPlayer',
             shouldClose = true
         }, {
             id = 'stretcheroptions',
             title = 'Stretcher',
-            icon = 'procedures',
+            icon = 'bed-pulse',
             items = {
                 {
                     id = 'spawnstretcher',
@@ -1108,7 +1108,7 @@ Config.JobInteractions = {
     ["police"] = {
         {
             id = 'checkvehstatus',
-            title = 'Check Tuning',
+            title = 'Check Tune Status',
             icon = 'car',
             type = 'client',
             event = 'qb-tunerchip:client:TuneStatus',
@@ -1134,7 +1134,7 @@ Config.JobInteractions = {
             items = {
                 {
                     id = 'statuscheck',
-                    title = 'Check Health',
+                    title = 'Check Health Status',
                     icon = 'heartbeat',
                     type = 'client',
                     event = 'hospital:client:CheckStatus',
@@ -1149,14 +1149,14 @@ Config.JobInteractions = {
                 }, {
                     id = 'escort',
                     title = 'Escort',
-                    icon = 'user-friends',
+                    icon = 'user-group',
                     type = 'client',
                     event = 'police:client:EscortPlayer',
                     shouldClose = true
                 }, {
                     id = 'searchplayer',
                     title = 'Search',
-                    icon = 'search',
+                    icon = 'magnifying-glass',
                     type = 'client',
                     event = 'police:client:SearchPlayer',
                     shouldClose = true
@@ -1177,7 +1177,7 @@ Config.JobInteractions = {
                 {
                     id = 'spawnpion',
                     title = 'Cone',
-                    icon = 'exclamation-triangle',
+                    icon = 'triangle-exclamation',
                     type = 'client',
                     event = 'police:client:spawnCone',
                     shouldClose = false
