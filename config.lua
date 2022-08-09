@@ -1,6 +1,7 @@
 Config = {}
 
 Config.EnableExtraMenu = true
+Config.Fliptime = 15000
 
 Config.MenuItems = {
     [1] = {
@@ -19,16 +20,14 @@ Config.MenuItems = {
                         icon = 'key',
                         type = 'client',
                         event = 'qb-houses:client:giveHouseKey',
-                        shouldClose = true,
-                        items = {}
+                        shouldClose = true
                     }, {
                         id = 'removehousekey',
                         title = 'Remove Keys',
                         icon = 'key',
                         type = 'client',
                         event = 'qb-houses:client:removeHouseKey',
-                        shouldClose = true,
-                        items = {}
+                        shouldClose = true
                     }, {
                         id = 'togglelock',
                         title = 'Toggle Doorlock',
