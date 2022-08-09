@@ -663,7 +663,7 @@ local drawables = {
 	},
 	["Shoes"] = {
 		Drawable = 6,
-		Table = {Standalone = true, male = 68, female = 69},
+		Table = {Standalone = true, male = 68, female = 44},
 		Emote = {Dict = "random@domestic", Anim = "pickup_low", Move = 0, Dur = 1200}
 	},
 	["Neck"] = {

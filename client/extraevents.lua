@@ -39,7 +39,7 @@ local function PlayerCloseMenu()
             stealid = exports['qb-radialmenu']:AddOption({
                 id = 'stealplayer',
                 title = 'Steal',
-                icon = 'shopping-bag',
+                icon = 'bag-shopping',
                 type = 'client',
                 event = 'police:client:RobPlayer',
                 shouldClose = true,
@@ -59,7 +59,7 @@ local function mdt()
     if QBCore.Functions.GetPlayerData().job.name == "police" then
         mdtid = exports['qb-radialmenu']:AddOption({
             id = 'mdt',
-            title = 'Mdt',
+            title = 'MDT',
             icon = 'tablet',
             type = 'command',
             event = 'mdt',
