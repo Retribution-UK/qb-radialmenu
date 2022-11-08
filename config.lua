@@ -167,7 +167,7 @@ Config.MenuItems = {
                                 event = 'qb-radialmenu:ToggleClothing',
                                 shouldClose = true
                             }, {
-                                id = 'Bag',
+                                id = 'Bagoff',
                                 title = 'Bag',
                                 icon = 'bag-shopping',
                                 type = 'client',
@@ -1293,14 +1293,14 @@ Config.Commands = {
         Desc = "Toggle hat variation",
         Button = 3,
         Name = "Visor"
-    },
+    },--[[ 
     ["bag"] = {
         Func = function() ToggleClothing("Bag") end,
         Sprite = "bag",
         Desc = "Opens or closes your bag",
         Button = 8,
         Name = "Bag"
-    },
+    }, ]]
     ["shoes"] = {
         Func = function() ToggleClothing("Shoes") end,
         Sprite = "shoes",
