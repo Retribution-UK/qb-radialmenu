@@ -651,43 +651,43 @@ end)
 
 local drawables = {
 	["Top"] = {
-		Drawable = 15,
+		Drawable = 11,
 		Table = variations.jackets,
 		Emote = {Dict = "missmic4", Anim = "michael_tux_fidget", Move = 51, Dur = 1500}
 	},
 	["gloves"] = {
-		Drawable = 15,
+		Drawable = 3,
 		Table = variations.gloves,
 		Remember = true,
 		Emote = {Dict = "nmt_3_rcm-10", Anim = "cs_nigel_dual-10", Move = 51, Dur = 1200}
 	},
 	["Shoes"] = {
-		Drawable = 119,
-		Table = {Standalone = true, male = 40, female = 102},
+		Drawable = 6,
+		Table = {Standalone = true, male = 34, female = 35},
 		Emote = {Dict = "random@domestic", Anim = "pickup_low", Move = 0, Dur = 1200}
 	},
 	["Neck"] = {
-		Drawable = 0,
+		Drawable = 7,
 		Table = {Standalone = true, male = 0, female = 0 },
 		Emote = {Dict = "clothingtie", Anim = "try_tie_positive_a", Move = 51, Dur = 2100}
 	},
 	["Vest"] = {
-		Drawable = 0,
+		Drawable = 9,
 		Table = {Standalone = true, male = 0, female = 0 },
 		Emote = {Dict = "clothingtie", Anim = "try_tie_negative_a", Move = 51, Dur = 1200}
 	},
 	["Bag"] = {
-		Drawable = 0,
+		Drawable = 5,
 		Table = variations.bags,
 		Emote = {Dict = "anim@heists@ornate_bank@grab_cash", Anim = "intro", Move = 51, Dur = 1600}
 	},
 	["Mask"] = {
-		Drawable = 0,
+		Drawable = 1,
 		Table = {Standalone = true, male = 0, female = 0 },
 		Emote = {Dict = "mp_masks@standard_car@ds@", Anim = "put_on_mask", Move = 51, Dur = 800}
 	},
 	["hair"] = {
-		Drawable = 0,
+		Drawable = 2,
 		Table = variations.hair,
 		Remember = true,
 		Emote = {Dict = "clothingtie", Anim = "check_out_a", Move = 51, Dur = 2000}
@@ -696,9 +696,9 @@ local drawables = {
 
 local Extras = {
 	["Shirt"] = {
-		Drawable = 15,
+		Drawable = 11,
 		Table = {
-			Standalone = true, male = 15, female = 15,
+			Standalone = true, male = 252, female = 74,
 			Extra = {
 				{Drawable = 8, Id = 15, Tex = 0, Name = "Extra Undershirt"},
 				{Drawable = 3, Id = 15, Tex = 0, Name = "Extra Gloves"},
@@ -709,7 +709,7 @@ local Extras = {
 	},
 	["Pants"] = {
 		Drawable = 4,
-		Table = {Standalone = true, male = 122, female = 15},
+		Table = {Standalone = true, male = 61, female = 14},
 		Emote = {Dict = "re@construction", Anim = "out_of_breath", Move = 51, Dur = 1300}
 	},
 	["Bagoff"] = {
@@ -729,35 +729,35 @@ local Props = {
 		}
 	},
 	["Hat"] = {
-		Prop = -1,
+		Prop = 0,
 		Emote = {
 			On = {Dict = "mp_masks@standard_car@ds@", Anim = "put_on_mask", Move = 51, Dur = 600},
 			Off = {Dict = "missheist_agency2ahelmet", Anim = "take_off_helmet_stand", Move = 51, Dur = 1200}
 		}
 	},
 	["Glasses"] = {
-		Prop = -1,
+		Prop = 1,
 		Emote = {
 			On = {Dict = "clothingspecs", Anim = "take_off", Move = 51, Dur = 1400},
 			Off = {Dict = "clothingspecs", Anim = "take_off", Move = 51, Dur = 1400}
 		}
 	},
 	["Ear"] = {
-		Prop = -1,
+		Prop = 2,
 		Emote = {
 			On = {Dict = "mp_cp_stolen_tut", Anim = "b_think", Move = 51, Dur = 900},
 			Off = {Dict = "mp_cp_stolen_tut", Anim = "b_think", Move = 51, Dur = 900}
 		}
 	},
 	["Watch"] = {
-		Prop = -1,
+		Prop = 6,
 		Emote = {
 			On = {Dict = "nmt_3_rcm-10", Anim = "cs_nigel_dual-10", Move = 51, Dur = 1200},
 			Off = {Dict = "nmt_3_rcm-10", Anim = "cs_nigel_dual-10", Move = 51, Dur = 1200}
 		}
 	},
 	["Bracelet"] = {
-		Prop = -1,
+		Prop = 7,
 		Emote = {
 			On = {Dict = "nmt_3_rcm-10", Anim = "cs_nigel_dual-10", Move = 51, Dur = 1200},
 			Off = {Dict = "nmt_3_rcm-10", Anim = "cs_nigel_dual-10", Move = 51, Dur = 1200}
